@@ -1,6 +1,6 @@
 <?php
 
-namespace Kun\LaravelChatApi;
+namespace NghiaKun\LaravelChatApi;
 
 use Illuminate\Support\Facades\Http;
 
@@ -51,9 +51,9 @@ class GoogleChatService
     {
         $icon = match (strtoupper($level)) {
             'WARNING' => '⚠️',
-            'INFO'    => 'ℹ️',
+            'INFO' => 'ℹ️',
             'SUCCESS' => '✅',
-            default   => '🔴',
+            default => '🔴',
         };
 
         return $this->sendMessage("{$icon} *{$level}* — *{$title}*\n{$message}");

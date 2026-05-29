@@ -1,6 +1,6 @@
 <?php
 
-namespace Kun\LaravelChatApi;
+namespace NghiaKun\LaravelChatApi;
 
 use Illuminate\Support\ServiceProvider;
 

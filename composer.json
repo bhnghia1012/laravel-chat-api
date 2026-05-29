@@ -1,5 +1,5 @@
 {
-  "name": "kun/laravel-chat-api",
+  "name": "nghia-kun/laravel-chat-api",
   "description": "Send messages to Google Chat via webhooks in Laravel",
   "type": "library",
   "license": "MIT",
@@ -23,7 +23,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Kun\\LaravelChatApi\\": "src/"
+      "NghiaKun\\LaravelChatApi\\": "src/"
     }
   },
   "minimum-stability": "stable",
@@ -31,10 +31,10 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Kun\\LaravelChatApi\\GoogleChatServiceProvider"
+        "NghiaKun\\LaravelChatApi\\GoogleChatServiceProvider"
       ],
       "aliases": {
-        "GoogleChat": "Kun\\LaravelChatApi\\Facades\\GoogleChat"
+        "GoogleChat": "NghiaKun\\LaravelChatApi\\Facades\\GoogleChat"
       }
     }
   }
